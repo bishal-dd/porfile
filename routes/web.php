@@ -1,7 +1,12 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-use App\Http\Controllers\admin\dashboard;
+use App\Http\Controllers\admin\DashboardController;
+use App\Http\Controllers\admin\EventController;
+use App\Http\Controllers\user\LoginController;
+use App\Http\Controllers\user\HomeController;
+use App\Http\Controllers\user\MessageController;
+
 
 
 /*
@@ -15,10 +20,59 @@ use App\Http\Controllers\admin\dashboard;
 |
 */
 
-Route::get('/', function () {
-    return view('users/index');
+
+Route::get("/", [HomeController::class, "home"])->name(
+    "home"
+);
+
+Route::get('/login', function () {
+    return view('users/login');
 });
 
-Route::get("/dashboard", [dashboard::class, "dashboard"])->name(
-    "dashboard"
+Route::post("/userlogin", [LoginController::class, "userlogin"])->name(
+    "userlogin"
 );
+
+Route::post("/message", [MessageController::class, "add_message"])->name(
+    "add_message"
+);
+
+
+Route::group(["middleware" => ["admin"]], function () {
+
+    Route::get("/dashboard", [DashboardController::class, "dashboard"])->name(
+        "dashboard"
+    );
+    
+    Route::get("/logout", [LoginController::class, "logout"])->name("logout");
+
+    // Event Functions
+    Route::get("/dashboard/add_event", [
+        EventController::class,
+        "get_event",
+    ])->name("get_event");
+
+    Route::post("/dashboard/add_event", [
+        EventController::class,
+        "add_event",
+    ])->name("add_event");
+
+    Route::post("/dashboard/edit_event", [
+        EventController::class,
+        "edit_event",
+    ])->name("edit_event");
+
+    Route::post("/dashboard/delete_event/{id}", [
+        EventController::class,
+        "delete_event",
+    ])->name("delete_event");
+
+
+        // FeedBack Functions
+
+        Route::get("/dashboard/view_feedback", [
+            MessageController::class,
+            "view_feedback",
+        ])->name("viewFeedback");
+
+});

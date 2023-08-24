@@ -461,6 +461,7 @@ a:hover {
   padding: 0;
   font-weight: 600;
   letter-spacing: 1px;
+
 }
 
 #header .logo a {
@@ -480,7 +481,7 @@ a:hover {
 # Navigation Menu
 --------------------------------------------------------------*/
 /**
-* Desktop Navigation 
+* Desktop Navigation
 */
 .navbar {
   padding: 0;
@@ -619,7 +620,7 @@ a:hover {
 }
 
 /**
-* Mobile Navigation 
+* Mobile Navigation
 */
 .mobile-nav-toggle {
   color: #fff;
@@ -869,6 +870,7 @@ a:hover {
   border-radius: 1rem;
   margin-bottom: 3rem;
   text-align: center;
+    height: 450px;
 }
 
 .service-box:hover .ico-circle {
