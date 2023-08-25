@@ -9,7 +9,7 @@
       <i class="bi bi-list toggle-sidebar-btn"></i>
     </div><!-- End Logo -->
 
-   
+
 
     <nav class="header-nav ms-auto">
       <ul class="d-flex align-items-center">
@@ -20,9 +20,9 @@
           </a>
         </li><!-- End Search Icon-->
 
-        
 
-       
+
+
         <li class="nav-item dropdown pe-3">
 
           <a class="nav-link nav-profile d-flex align-items-center pe-0" href="#" data-bs-toggle="dropdown">
@@ -63,48 +63,8 @@
           <span>Dashboard</span>
         </a>
       </li><!-- End Dashboard Nav -->
-      
 
 
-      <li class="nav-item">
-        <a class="nav-link collapsed" data-bs-target="#forms-nav" data-bs-toggle="collapse" href="#">
-          <i class="bi bi-hand-index"></i><span>Content Management</span><i class="bi bi-chevron-down ms-auto"></i>
-        </a>
-        <ul id="forms-nav" class="nav-content collapse " data-bs-parent="#sidebar-nav">
-          <li>
-            <a href="/dashboard/add_slider_image">
-              <i class="bi bi-circle"></i><span>Add Slider Image</span>
-            </a>
-          </li>
-          <li>
-            <a href="/dashboard/add_advisory">
-              <i class="bi bi-circle"></i><span>Add Advisory</span>
-            </a>
-          </li>
-          <li>
-            <a href="/dashboard/add_incubates">
-              <i class="bi bi-circle"></i><span>Add Incubates</span>
-            </a>
-          </li>
-          <li>
-            <a href="/dashboard/add_mentor">
-              <i class="bi bi-circle"></i><span>Add Mentor</span>
-            </a>
-          </li>
-          <li>
-            <a href="/dashboard/add_stakeholder">
-              <i class="bi bi-circle"></i><span>Add Stakeholder</span>
-            </a>
-          </li>
-          <li>
-            <a href="/dashboard/add_facilities">
-              <i class="bi bi-circle"></i><span>Add Facilities</span>
-            </a>
-          </li>
-        </ul>
-      </li><!-- End Forms Nav -->
-      
-      
         <li class="nav-item">
           <a class="nav-link " href="/dashboard/add_event">
             <i class="bi bi-calendar2-event"></i>
@@ -114,40 +74,10 @@
         <li class="nav-item">
           <a class="nav-link " href="/dashboard/view_feedback">
             <i class="bi bi-person-x"></i>
-            <span>View Feedback</span>
-          </a>
-        </li><!-- End Dashboard Nav -->
-        <li class="nav-item">
-          <a class="nav-link " href="/dashboard/view_application">
-            <i class="bi bi-text-left"></i>
-            <span>View Applications</span>
+            <span>View Message</span>
           </a>
         </li><!-- End Dashboard Nav -->
 
-        <li class="nav-item">
-          <a class="nav-link " href="/dashboard/add_home">
-            <i class="bi bi-shop"></i>
-            <span>Home Page Content</span>
-          </a>
-        </li><!-- End Dashboard Nav -->
-        <li class="nav-item">
-          <a class="nav-link " href="/dashboard/add_about">
-            <i class="bi bi-pencil-square"></i>
-            <span>About Page Content</span>
-          </a>
-        </li><!-- End Dashboard Nav -->
-        <li class="nav-item">
-          <a class="nav-link " href="/dashboard/add_documents">
-            <i class="bi bi-receipt"></i>
-            <span>Documents</span>
-          </a>
-        </li><!-- End Dashboard Nav -->
-        <li class="nav-item">
-          <a class="nav-link " href="/dashboard/add_FAQ">
-            <i class="bi bi-receipt"></i>
-            <span>FAQ</span>
-          </a>
-        </li><!-- End Dashboard Nav -->
       </li><!-- End Forms Nav -->
       <li class="nav-item">
         <a class="nav-link collapsed" data-bs-target="#forms-nav1" data-bs-toggle="collapse" href="#">
