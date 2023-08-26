@@ -1,7 +1,7 @@
 @include('users.common.head')
 
 <!-- ======= Hero Section ======= -->
-<div id="hero" class="hero route bg-image" style="background-image: url({{asset('assets/img/hero-bg.jpg')}}">
+<div id="hero" class="hero route bg-image" style="background-image: url({{asset('assets/img/background.png')}}">
     <div class="overlay-itro"></div>
     <div class="hero-content display-table">
       <div class="table-cell">
@@ -34,7 +34,6 @@
                     <div class="col-sm-6 col-md-7">
                       <div class="about-info">
                         <p><span class="title-s">Name: </span> <span>LightWebx</span></p>
-                        <p><span class="title-s">Profile: </span> <span>Full Stack Developer</span></p>
                         <p><span class="title-s">Email: </span> <span>bishalwebs@gmail.com</span></p>
                         <p><span class="title-s">Phone: </span> <span>+97517959259</span></p>
                       </div>
@@ -274,8 +273,8 @@
               <div class="card-footer">
                 <div class="post-author">
                   <a href="#">
-                    <img src="assets/img/testimonial-2.jpg" alt="" class="avatar rounded-circle">
-                    <span class="author">Bishal</span>
+                    <img src="{{asset('assets/img/logo.png')}}" alt="" class="avatar rounded-circle">
+                    <span class="author">LightWebx</span>
                   </a>
                 </div>
                 <div class="post-date">
