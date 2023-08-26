@@ -12,10 +12,10 @@
       </nav>
     </div><!-- End Page Title -->
     <section class="section">
-      
+
 
        <!-- Modal Dialog Scrollable -->
-        
+
        <div class="modal fade" id="modalDialogScrollable" tabindex="-1">
         <div class="modal-dialog modal-dialog-scrollable">
           <div class="modal-content">
@@ -27,7 +27,7 @@
                 <p id="idea">
 
                 </p>
-              
+
             </div>
             <div class="modal-footer">
               <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
@@ -42,7 +42,7 @@
          <div class="col-12">
             <div class="card recent-sales overflow-auto">
 
-             
+
 
               <div class="card-body">
                 <h5 class="card-title">Feedback</h5>
@@ -55,7 +55,7 @@
                       <th scope="col">Email</th>
                       <th scope="col">Phone No</th>
                       <th scope="col">Message</th>
-                      
+
                     </tr>
                   </thead>
                   <tbody>
@@ -73,8 +73,8 @@
                         {{$datas->phone}}
                       </a></td>
                       <td><button type="button" onclick="showmodal({{$datas}})" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modalDialogScrollable">
-                        View Feedback
-                      </button></td></td>                 
+                        View Message
+                      </button></td></td>
                     </tr>
                     @endforeach
                   </tbody>

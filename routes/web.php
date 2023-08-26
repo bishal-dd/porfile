@@ -5,6 +5,7 @@ use App\Http\Controllers\admin\DashboardController;
 use App\Http\Controllers\admin\EventController;
 use App\Http\Controllers\user\LoginController;
 use App\Http\Controllers\user\HomeController;
+use App\Http\Controllers\user\ProjectController;
 use App\Http\Controllers\user\MessageController;
 
 
@@ -23,6 +24,9 @@ use App\Http\Controllers\user\MessageController;
 
 Route::get("/", [HomeController::class, "home"])->name(
     "home"
+);
+Route::get("/project", [ProjectController::class, "project"])->name(
+    "project"
 );
 
 Route::get('/login', function () {
@@ -43,7 +47,7 @@ Route::group(["middleware" => ["admin"]], function () {
     Route::get("/dashboard", [DashboardController::class, "dashboard"])->name(
         "dashboard"
     );
-    
+
     Route::get("/logout", [LoginController::class, "logout"])->name("logout");
 
     // Event Functions

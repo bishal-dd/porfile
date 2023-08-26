@@ -7,8 +7,8 @@
       <div class="table-cell">
         <div class="container">
           <!--<p class="display-6 color-d">Hello, world!</p>-->
-          <h1 class="hero-title mb-4">I am Bishal</h1>
-          <p class="hero-subtitle"><span class="typed" data-typed-items="Designer, Developer, Freelancer, Engineer"></span></p>
+          <h1 class="hero-title mb-4">LightWebx</h1>
+          <p class="hero-subtitle"><span class="typed" data-typed-items="Designers, Developers, Freelancers, Engineers"></span></p>
           <!-- <p class="pt-3"><a class="btn btn-primary btn js-scroll px-4" href="#about" role="button">Learn More</a></p> -->
         </div>
       </div>
@@ -33,7 +33,7 @@
                     </div>
                     <div class="col-sm-6 col-md-7">
                       <div class="about-info">
-                        <p><span class="title-s">Name: </span> <span>Bishal</span></p>
+                        <p><span class="title-s">Name: </span> <span>LightWebx</span></p>
                         <p><span class="title-s">Profile: </span> <span>Full Stack Developer</span></p>
                         <p><span class="title-s">Email: </span> <span>bishalwebs@gmail.com</span></p>
                         <p><span class="title-s">Phone: </span> <span>+97517959259</span></p>
@@ -69,25 +69,20 @@
                   <div class="about-me pt-4 pt-md-0">
                     <div class="title-box-2">
                       <h5 class="title-left">
-                        About me
+                        About us
                       </h5>
                     </div>
                     <p class="lead">
-                      Curabitur non nulla sit amet nisl tempus convallis quis ac lectus. Curabitur arcu erat, accumsan id
-                      imperdiet et, porttitor
-                      at sem. Praesent sapien massa, convallis a pellentesque nec, egestas non nisi. Nulla
-                      porttitor accumsan tincidunt.
+                        Welcome to our innovative web development company, where creativity and functionality converge seamlessly.
+                        Our team's expertise is exemplified by our commitment to crafting online experiences that resonate with your audience.
                     </p>
                     <p class="lead">
-                      Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Vivamus suscipit tortor eget felis
-                      porttitor volutpat. Vestibulum
-                      ac diam sit amet quam vehicula elementum sed sit amet dui. porttitor at sem.
+                        At our core, we embrace the artistry of design and the precision of technology.
+                        This balance allows us to deliver websites that not only captivate visually but also perform
+                        flawlessly. Our solutions are more than just code – they're a testament to our dedication to excellence.
+
                     </p>
-                    <p class="lead">
-                      Nulla porttitor accumsan tincidunt. Quisque velit nisi, pretium ut lacinia in, elementum id enim.
-                      Nulla porttitor accumsan
-                      tincidunt. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a.
-                    </p>
+
                   </div>
                 </div>
               </div>
@@ -115,6 +110,7 @@
         </div>
         <div class="row">
           <div class="col-md-4">
+              <a class="nav-link scrollto" href="/#contact">
             <div class="service-box">
               <div class="service-ico">
                 <span class="ico-circle"><i class="bi bi-briefcase"></i></span>
@@ -122,19 +118,20 @@
               <div class="service-content">
                 <h2 class="s-title">Simple Web Design</h2>
                 <p class="s-description text-center ">
-                  We understand that
-                    not every project requires complex features or ongoing updates,
+                  We understand that not every project requires complex features or ongoing updates,
                     which is why we've crafted this service to suit those seeking a
-                    clean and straightforward online presence.
+                    clean and straightforward online presence of your needs.
                 </p>
               </div>
                 <div>
-                    <h4>Cost: 2000</h4>
+                    <h4>Cost: Nu. 2000 ($24)</h4>
                 </div>
             </div>
+              </a>
           </div>
           <div class="col-md-4">
-            <div class="service-box">
+              <a class="nav-link scrollto" href="/#contact">
+              <div class="service-box">
               <div class="service-ico">
                 <span class="ico-circle"><i class="bi bi-card-checklist"></i></span>
               </div>
@@ -146,12 +143,14 @@
                 </p>
               </div>
                 <div>
-                    <h4>Cost: 4000</h4>
+                    <h4>Cost: Nu. 4000 ($48)</h4>
                 </div>
             </div>
+              </a>
           </div>
           <div class="col-md-4">
-            <div class="service-box">
+              <a class="nav-link scrollto" href="/#contact">
+              <div class="service-box">
               <div class="service-ico">
                 <span class="ico-circle"><i class="bi bi-bar-chart"></i></span>
               </div>
@@ -164,11 +163,11 @@
                 </p>
               </div>
                 <div>
-                    <h4>Cost: 6000</h4>
+                    <h4>Cost: Nu. 6000 ($72)</h4>
                 </div>
             </div>
+              </a>
           </div>
-
 
 
 
@@ -353,10 +352,8 @@
                     </div>
                     <div class="more-info">
                       <p class="lead">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis dolorum dolorem soluta quidem
-                        expedita aperiam aliquid at.
-                        Totam magni ipsum suscipit amet? Autem nemo esse laboriosam ratione nobis
-                        mollitia inventore?
+                          Whether you have a question, a project idea, or just want to say hello, we're here and eager to connect.
+                          Reach out to us today, and let's start a conversation that could lead to something extraordinary. Your journey towards success begins with a simple message.
                       </p>
                       <ul class="list-ico">
                         <li><span class="bi bi-phone"></span>+97517959259</li>
