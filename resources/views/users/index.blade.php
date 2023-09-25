@@ -35,7 +35,7 @@
                       <div class="about-info">
                         <p><span class="title-s">Name: </span> <span>LightWebx</span></p>
                         <p><span class="title-s">Email: </span> <span>lightwebx@gmail.com</span></p>
-{{--                        <p><span class="title-s">Phone: </span> <span>+97517959259</span></p>--}}
+                        <p><span class="title-s">Phone: </span> <span>+97517959259</span></p>
                       </div>
                     </div>
                   </div>
@@ -341,7 +341,7 @@
                           Reach out to us today, and let's start a conversation that could lead to something extraordinary. Your journey towards success begins with a simple message.
                       </p>
                       <ul class="list-ico">
-{{--                        <li><span class="bi bi-phone"></span>+97517959259</li>--}}
+                        <li><span class="bi bi-phone"></span>+97517959259</li>
                         <li><span class="bi bi-envelope"></span> lightwebx@gmail.com</li>
                       </ul>
                     </div>
