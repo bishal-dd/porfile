@@ -347,8 +347,8 @@
                     </div>
                     <div class="socials">
                       <ul>
-                        <li><a href="https://www.facebook.com/profile.php?id=100008616101971" target="_blank"><span class="ico-circle"><i class="bi bi-facebook"></i></span></a></li>
-                        <li><a href="https://www.instagram.com/bishal.dh/?hl=en" target="_blank"><span class="ico-circle"><i class="bi bi-instagram"></i></span></a></li>
+                        <li><a href="https://www.facebook.com/lightwebx" target="_blank"><span class="ico-circle"><i class="bi bi-facebook"></i></span></a></li>
+                        <li><a href="https://www.instagram.com/lightwebx/" target="_blank"><span class="ico-circle"><i class="bi bi-instagram"></i></span></a></li>
                         <li><a href="https://twitter.com/bishaldhakal133" target="_blank"><span class="ico-circle"><i class="bi bi-twitter"></i></span></a></li>
                         <li><a href="https://www.linkedin.com/in/bishal-dhakal-582729204/" target="_blank"><span class="ico-circle"><i class="bi bi-linkedin"></i></span></a></li>
                         <li><a href="https://www.fiverr.com/bishaldhakal353" target="_blank"><span class="ico-circle"><img src="https://cdn-images-1.medium.com/max/1200/1*Xa26ULIpZTTP1hN_ReUXVQ.png" width="30" height="30"></span></a></li>
