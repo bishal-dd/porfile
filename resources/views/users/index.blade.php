@@ -1,7 +1,7 @@
 @include('users.common.head')
 
 <!-- ======= Hero Section ======= -->
-<div id="hero" class="hero route bg-image" style="background-image: url({{asset('assets/img/background.png')}}">
+<div id="hero" class="hero route bg-image" style="background-image: url({{asset('assets/img/background.webp')}}">
     <div class="overlay-itro"></div>
     <div class="hero-content display-table">
       <div class="table-cell">
@@ -28,7 +28,7 @@
                   <div class="row">
                     <div class="col-sm-6 col-md-5">
                       <div class="about-img">
-                        <img src="{{asset('assets/img/logo.png')}}" class="img-fluid rounded b-shadow-a" alt="">
+                        <img src="{{asset('assets/img/logo.webp')}}" class="img-fluid rounded b-shadow-a" alt="">
                       </div>
                     </div>
                     <div class="col-sm-6 col-md-7">
@@ -175,7 +175,7 @@
     </section><!-- End Services Section -->
 
     <!-- ======= Counter Section ======= -->
-    <div class="section-counter paralax-mf bg-image" style="background-image: url(assets/img/counters-bg.jpg)">
+    <div class="section-counter paralax-mf bg-image" style="background-image: url('assets/img/counters-bg.jpg')">
       <div class="overlay-mf"></div>
       <div class="container position-relative">
         <div class="row">
@@ -229,70 +229,56 @@
 
 
 
-
-
-    <!-- ======= Blog Section ======= -->
-    <section id="blog" class="blog-mf sect-pt4 route">
-      <div class="container">
-        <div class="row">
-          <div class="col-sm-12">
-            <div class="title-box text-center">
-              <h3 class="title-a">
-                Portfolio
-              </h3>
-              <p class="subtitle-a">
-                Please check out my previous work below
-              </p>
-              <div class="line-mf"></div>
-            </div>
-          </div>
-        </div>
-        <div class="row">
-
-
-
-          @foreach($event as $events)
-          <div class="col-md-4">
-            <div class="card card-blog">
-              <a href="event_images/{{$events->image}}" data-gallery="portfolioGallery" class="portfolio-lightbox">
-                <div class="work-img">
-                  <img src="event_images/{{$events->image}}" alt="" class="img-fluid">
-                </div>
-              </a>
-              <div class="card-body">
-                <div class="card-category-box">
-                  <div class="card-category">
-                    <h6 class="category">Web Design</h6>
+      <!-- ======= Portfolio Section ======= -->
+      <section id="work" class="portfolio-mf sect-pt4 route">
+          <div class="container">
+              <div class="row">
+                  <div class="col-sm-12">
+                      <div class="title-box text-center">
+                          <h3 class="title-a">
+                              Portfolio
+                          </h3>
+                          <p class="subtitle-a">
+                              Please check out my previous work below
+                          </p>
+                          <div class="line-mf"></div>
+                      </div>
                   </div>
-                </div>
-                <h3 class="card-title"><a href="blog-single.html">{{$events->title}}</a></h3>
-                <p class="card-description">
-                  {{$events->description}}
-                </p>
               </div>
-              <div class="card-footer">
-                <div class="post-author">
-                  <a href="#">
-                    <img src="{{asset('assets/img/logo.png')}}" alt="" class="avatar rounded-circle">
-                    <span class="author">LightWebx</span>
-                  </a>
-                </div>
-                <div class="post-date">
-                  <span class="bi bi-clock"></span> <a href="{{$events->url}}" target="_blank">demo</a>
-                </div>
+              <div class="row">
+                  @foreach($event as $events)
+
+                  <div class="col-md-4">
+                      <div class="work-box">
+                          <a href="event_images/{{$events->image}}" data-gallery="portfolioGallery" class="portfolio-lightbox">
+                              <div class="work-img">
+                                  <img src="event_images/{{$events->image}}" alt="" class="img-fluid">
+                              </div>
+                          </a>
+                          <div class="work-content">
+                              <div class="row">
+                                  <div class="col-sm-8">
+                                      <h2 class="w-title">{{$events->title}}</h2>
+                                      <div class="w-more">
+                                          <span class="w-ctegory">Web Design</span>
+                                      </div>
+                                  </div>
+                                  <div class="col-sm-4">
+                                      <div class="w-like">
+                                          <a href="{{$events->url}}" target="_blank"> <span class="bi bi-plus-circle"></span></a>
+                                      </div>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+                  @endforeach
+
               </div>
-            </div>
           </div>
-
-          @endforeach
-
+      </section><!-- End Portfolio Section -->
 
 
-
-
-        </div>
-      </div>
-    </section><!-- End Blog Section -->
 
     <!-- ======= Contact Section ======= -->
     <section id="contact" class="paralax-mf footer-paralax bg-image sect-mt4 route" style="background-image: url(assets/img/overlay-bg.jpg)">

@@ -10,7 +10,7 @@
   <meta content="" name="keywords">
 
   <!-- Favicons -->
-  <link href="{{asset('assets/img/favicon.png')}}" rel="icon">
+  <link href="{{asset('assets/img/favicon.webp')}}" rel="icon">
   <link href="{{asset('assets/img/apple-touch-icon.png')}}" rel="apple-touch-icon">
 
   <!-- Vendor CSS Files -->
@@ -28,16 +28,14 @@
    <header id="header" class="fixed-top">
     <div class="container d-flex align-items-center justify-content-between">
 
-
-
-      <h1 class="logo"><a href="/"><img src="{{asset('assets/img/logo.png')}}" alt="" height="200px" class="img-fluid">LightWebx</a></h1>
+      <h1 class="logo"><a href="/"><img src="{{asset('assets/img/logo.webp')}}" alt="" height="200px" class="img-fluid">LightWebx</a></h1>
 
       <nav id="navbar" class="navbar">
         <ul>
           <li><a class="nav-link scrollto active" href="/#hero">Home</a></li>
           <li><a class="nav-link scrollto" href="/#about">About</a></li>
           <li><a class="nav-link scrollto" href="/#services">Services</a></li>
-          <li><a class="nav-link scrollto " href="/#blog">Demos</a></li>
+          <li><a class="nav-link scrollto " href="/#work">Demos</a></li>
           <li><a class="nav-link scrollto" href="/#contact">Contact</a></li>
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
