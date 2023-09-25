@@ -34,8 +34,8 @@
                     <div class="col-sm-6 col-md-7">
                       <div class="about-info">
                         <p><span class="title-s">Name: </span> <span>LightWebx</span></p>
-                        <p><span class="title-s">Email: </span> <span>bishalwebs@gmail.com</span></p>
-                        <p><span class="title-s">Phone: </span> <span>+97517959259</span></p>
+                        <p><span class="title-s">Email: </span> <span>lightwebx@gmail.com</span></p>
+{{--                        <p><span class="title-s">Phone: </span> <span>+97517959259</span></p>--}}
                       </div>
                     </div>
                   </div>
@@ -123,7 +123,7 @@
                 </p>
               </div>
                 <div>
-                    <h4>Cost: Nu. 2000 ($24)</h4>
+                    <h4>Cost: Nu. 10000</h4>
                 </div>
             </div>
               </a>
@@ -142,7 +142,7 @@
                 </p>
               </div>
                 <div>
-                    <h4>Cost: Nu. 4000 ($48)</h4>
+                    <h4>Cost: Nu. 15000 </h4>
                 </div>
             </div>
               </a>
@@ -162,7 +162,7 @@
                 </p>
               </div>
                 <div>
-                    <h4>Cost: Nu. 6000 ($72)</h4>
+                    <h4>Cost: Nu. 30000 </h4>
                 </div>
             </div>
               </a>
@@ -341,8 +341,8 @@
                           Reach out to us today, and let's start a conversation that could lead to something extraordinary. Your journey towards success begins with a simple message.
                       </p>
                       <ul class="list-ico">
-                        <li><span class="bi bi-phone"></span>+97517959259</li>
-                        <li><span class="bi bi-envelope"></span> bishalwebs@gmail.com</li>
+{{--                        <li><span class="bi bi-phone"></span>+97517959259</li>--}}
+                        <li><span class="bi bi-envelope"></span> lightwebx@gmail.com</li>
                       </ul>
                     </div>
                     <div class="socials">
