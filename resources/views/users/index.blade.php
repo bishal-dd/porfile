@@ -123,7 +123,7 @@
                 </p>
               </div>
                 <div>
-                    <h4>Cost: $100</h4>
+                    <h4>Cost: Nu. 10000</h4>
                 </div>
             </div>
               </a>
@@ -142,7 +142,7 @@
                 </p>
               </div>
                 <div>
-                    <h4>Cost: $300 </h4>
+                    <h4>Cost: Nu. 15000 </h4>
                 </div>
             </div>
               </a>
@@ -162,7 +162,7 @@
                 </p>
               </div>
                 <div>
-                    <h4>Cost: $500</h4>
+                    <h4>Cost: Nu. 30000</h4>
                 </div>
             </div>
               </a>
