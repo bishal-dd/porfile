@@ -35,29 +35,29 @@
                       <div class="about-info">
                         <p><span class="title-s">Name: </span> <span>LightWebx</span></p>
                         <p><span class="title-s">Email: </span> <span>lightwebx@gmail.com</span></p>
-                        <p><span class="title-s">Phone: </span> <span>+97517959259</span></p>
+                        <p><span class="title-s">Phone: </span> <span>+975-17959259</span></p>
                       </div>
                     </div>
                   </div>
                   <div class="skill-mf">
                     <p class="title-s">Skills</p>
-                    <span>Python</span>
+                    <span>Problem Solving</span>
                     <div class="progress">
                       <div class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
                     </div>
-                    <span>JAVASCRIPT</span>
+                    <span>Creativity</span>
                     <div class="progress">
                       <div class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
                     </div>
-                    <span>PHP</span>
+                    <span>Client-Focused</span>
                     <div class="progress">
                       <div class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
                     </div>
-                    <span>HTML</span>
+                    <span>Attention to Detail</span>
                     <div class="progress">
                       <div class="progress-bar" role="progressbar" style="width: 100%;" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
                     </div>
-                    <span>CSS3</span>
+                    <span>Communication</span>
                     <div class="progress">
                       <div class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
                     </div>
@@ -123,7 +123,7 @@
                 </p>
               </div>
                 <div>
-                    <h4>Cost: Nu. 10000</h4>
+                    <h4>Cost: Nu. 10,000</h4>
                 </div>
             </div>
               </a>
@@ -142,7 +142,7 @@
                 </p>
               </div>
                 <div>
-                    <h4>Cost: Nu. 15000 </h4>
+                    <h4>Cost: Nu. 15,000 </h4>
                 </div>
             </div>
               </a>
@@ -162,7 +162,7 @@
                 </p>
               </div>
                 <div>
-                    <h4>Cost: Nu. 30000</h4>
+                    <h4>Cost: Nu. 30,000</h4>
                 </div>
             </div>
               </a>
@@ -185,7 +185,7 @@
                 <span class="ico-circle"><i class="bi bi-check"></i></span>
               </div>
               <div class="counter-num">
-                <p data-purecounter-start="0" data-purecounter-end="8" data-purecounter-duration="1" class="counter purecounter"></p>
+                <p data-purecounter-start="0" data-purecounter-end="9" data-purecounter-duration="1" class="counter purecounter"></p>
                 <span class="counter-text">WORKS COMPLETED</span>
               </div>
             </div>
@@ -207,7 +207,7 @@
                 <span class="ico-circle"><i class="bi bi-people"></i></span>
               </div>
               <div class="counter-num">
-                <p data-purecounter-start="0" data-purecounter-end="8" data-purecounter-duration="1" class="counter purecounter"></p>
+                <p data-purecounter-start="0" data-purecounter-end="9" data-purecounter-duration="1" class="counter purecounter"></p>
                 <span class="counter-text">TOTAL CLIENTS</span>
               </div>
             </div>
