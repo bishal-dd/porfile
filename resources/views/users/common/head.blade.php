@@ -6,7 +6,7 @@
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
   <title>Light Webx</title>
-  <meta content="" name="description">
+  <meta name="description" content="Light Webx - Your Source for Web Development and Software Engineering Services">
   <meta content="" name="keywords">
 
   <!-- Favicons -->
